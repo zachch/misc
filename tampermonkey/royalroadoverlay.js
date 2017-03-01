@@ -15,6 +15,7 @@
     var oldBody = document.body.innerHTML;
 
     clearSpanStyles();
+    removeIframes();
     var chapterContent = document.getElementsByClassName('chapter-content')[0].innerHTML;
     var [navLinksTop, navLinksBot] = getChapterLinks();
     var newHead = getCSS();
