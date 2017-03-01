@@ -65,7 +65,7 @@
 
     function getCSS(){
         var anchorStyle = 'a{text-decoration:none;}';
-        var bodyTextStyle = 'body{font-size: 21px; font-family:Georgia; line-height: 33px; color: rgba(0,0,0,.8); margin: 30px auto; max-width:700px;}.faded{color:#999;}';
+        var bodyTextStyle = 'body{font-size: 21px; font-family:Georgia; line-height: 33px; color: rgba(0,0,0,.8); margin: 30px auto; max-width:700px;}.faded{color:#999;}h1,h2{line-height:1.3em}';
         var innerContentTableStyle = 'table{text-align:center;background-color:#F5F5F5;padding:10px 30px;width:100%;}';
         var css = '<style type="text/css">'+ anchorStyle + bodyTextStyle + innerContentTableStyle + '</style>';
         return css;
